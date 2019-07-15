@@ -724,15 +724,9 @@ section
 	height: 100%;
 	padding-left: 21px;
 }
-.device_image_container
-{
-	width: calc(50vw - 45px);
-	height: 100%;
-	padding-top: 195px;
-}
 .device_image_container img
 {
-	max-width: 100%;
+	height: 100%;
 }
 .device_image_background
 {
@@ -741,7 +735,6 @@ section
 	left: 21px;
 	width: 50vw;
 	height: 511px;
-	background: #452b78;
 	z-index: -1;
 }
 
@@ -832,6 +825,7 @@ section
 	padding-bottom: 49px;
 	padding-left: 68px;
 	padding-right: 60px;
+	height: 270px;
 }
 .card-title
 {
