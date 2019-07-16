@@ -417,6 +417,10 @@ section
 	height: 100%;
 }
 
+.phone > p {
+	color: #ff6b09;
+}
+
 @media (max-width: 1350px) {
 	.phone, .hero_side_text_container {
 		display: none;
